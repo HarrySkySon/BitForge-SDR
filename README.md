@@ -1,6 +1,13 @@
-# [PROJECT_NAME]
+<p align="center">
+  <img src="BitForge SDR_logo_invert.png" alt="BitForge SDR Logo" width="280">
+</p>
 
-**Open-Source 16-bit Direct-Sampling HF SDR Transceiver | 9 kHz -- 72 MHz | >100 dB Dynamic Range**
+<h1 align="center">BitForge SDR</h1>
+
+<p align="center">
+  <b>Pure Signal. Full Control.</b><br>
+  Open-Source 16-bit Direct-Sampling HF SDR Transceiver | 9 kHz -- 72 MHz | >100 dB Dynamic Range
+</p>
 
 A high-performance Software Defined Radio transceiver built around the LTC2209 16-bit 153.6 MSPS ADC and MAX5885 16-bit DAC. Designed for demanding HF reception from VLF through the 4-meter band, with full transmit capability and instrumentation-grade dynamic range.
 
@@ -63,7 +70,7 @@ Coverage extends from VLF (9 kHz) through the entire HF spectrum and up to the 4
 
 ## Comparison with Existing SDR Platforms
 
-| Parameter | **This Project** | Hermes-Lite 2 | HPSDR Angelia | RX-888 MKII | Red Pitaya SDRlab 122-16 | Elad FDM-S3 |
+| Parameter | **BitForge SDR** | Hermes-Lite 2 | HPSDR Angelia | RX-888 MKII | Red Pitaya SDRlab 122-16 | Elad FDM-S3 |
 |---|---|---|---|---|---|---|
 | **ADC resolution** | 16-bit | 12-bit | 16-bit | 16-bit | 16-bit | 16-bit |
 | **Sample rate** | 153.6 MSPS | 76.8 MSPS | 122.88 MSPS | 64 MSPS | 122.88 MSPS | 192 MSPS |
@@ -144,6 +151,7 @@ Coverage extends from VLF (9 kHz) through the entire HF spectrum and up to the 4
 |---|---|
 | `README.md` | This file |
 | `LICENSE` | CERN Open Hardware Licence v2 -- Strongly Reciprocal |
+| `BitForge SDR_logo_invert.png` | Project logo |
 | `PROJECT_OVERVIEW_v2.0.md` | Detailed technical overview of all 9 functional blocks |
 | `ALINX_Interface_Pinout_Specification.md` | FPGA carrier board connector pinout mapping |
 | `FPGA_Interface_Voltage_Analysis.md` | Voltage level and bank compatibility analysis |

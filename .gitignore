@@ -4,6 +4,7 @@
 # Allow specific files
 !README.md
 !LICENSE
+!BitForge SDR_logo_invert.png
 !PROJECT_OVERVIEW_v2.0.md
 !ALINX_Interface_Pinout_Specification.md
 !FPGA_Interface_Voltage_Analysis.md

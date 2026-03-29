@@ -1,0 +1,34 @@
+# Deny everything by default
+*
+
+# Allow specific files
+!README.md
+!LICENSE
+!PROJECT_OVERVIEW_v2.0.md
+!ALINX_Interface_Pinout_Specification.md
+!FPGA_Interface_Voltage_Analysis.md
+!.gitignore
+
+# PCB design documentation
+!pcb_design/
+!pcb_design/PCB_STACKUP_IMPEDANCE.md
+
+# Firmware
+!firmware/
+!firmware/**
+
+# Schematics - main project files
+!schematics/
+!schematics/All_Bloks_of_project.kicad_sch
+!schematics/All_Bloks_of_project.kicad_pcb
+!schematics/All_Bloks_of_project.kicad_pro
+!schematics/All_Bloks_of_project.kicad_dru
+
+# Schematics - production outputs
+!schematics/production/
+!schematics/production/LTC2209_SDR.zip
+!schematics/production/LTC2209_SDR_bom.csv
+
+# Schematics - interactive BOM
+!schematics/bom/
+!schematics/bom/ibom.html

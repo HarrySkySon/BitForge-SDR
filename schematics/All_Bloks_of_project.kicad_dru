@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "RF_LVDS_CMOS_Zone_Clearance"
+	(constraint clearance (min 0.2mm))
+	(condition "A.Type == 'Zone' && (B.NetClass == 'RF_50' || B.NetClass == 'DAC_CMOS' || B.NetClass == 'LVDS_100')"))
